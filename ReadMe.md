@@ -54,6 +54,16 @@ Isso significa que:
 
 JDBC (Java Database Connectivity) é uma API (Interface de Programação de Aplicações) no Java que permite que programas Java se conectem a bancos de dados relacionais (como MySQL, PostgreSQL, Oracle, etc.). Ele oferece uma maneira padrão e eficiente de interagir com bases de dados, permitindo que você execute consultas SQL, insira, atualize, exclua dados e manipule transações de maneira programática.
 
+Para adicionar o driver JDBC ao projeto no Eclipse, clique sobre o projeto na aba "Package Explorer" e pressione as teclas ALT + Enter ou clique com o botão direito e selecione a opção "Properties".
+
+![alt text](image-1.png)
+
+Em seguida, na aba lateral, clique sobre o item "Java Build Path" e selecione a tab "Libraries". Clique sobre o item "Classpath", após selecionar esse item, clique no botão "Add External JARs". Na caixa de pesquisa adicione o driver JDBC.
+
+![alt text](image.png)
+
+Para finalizar clique no botão "Apply and Close".
+
 ## BIBLIOTECA JAVA.SQL
 
 A biblioteca java.sql é um pacote fundamental no Java que contém as classes e interfaces necessárias para trabalhar com bancos de dados relacionais utilizando a API JDBC (Java Database Connectivity). Ela fornece as ferramentas para conectar, consultar, atualizar e manipular dados em um banco de dados SQL a partir de aplicações Java.
